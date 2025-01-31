@@ -5,5 +5,5 @@ package FireIncident;
  * Time, Zone ID, Event Type and Severity. Each line of input is to be sent to the Scheduler
  */
 
-public class fireSubsystem {
+public class FireSubsystem {
 }
