@@ -1,10 +1,10 @@
 package FireIncident;
 
 import java.util.AbstractMap;
-import java.util.AbstractMap;
+
 
 public class FireEvent extends Zone {
-    private int severity; // Add a severity field
+    private int severity;
 
     public FireEvent(int zoneID, int x, int y, int severity) {
         super(zoneID, x, y);
@@ -13,15 +13,15 @@ public class FireEvent extends Zone {
 
     @Override
     public AbstractMap.SimpleEntry<Integer, Integer> getCoordinates() {
-        return getLocation(); // Get from superclass (Zone)
+        return getLocation();
     }
 
     @Override
     public int getZoneID() {
-        return super.getZoneID(); // Get from superclass
+        return super.getZoneID();
     }
 
     public int getSeverity() {
-        return severity; // Return actual severity value
+        return severity;
     }
 }
